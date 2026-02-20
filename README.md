@@ -1,6 +1,6 @@
 # EspEepromManager
 
-Simple utilities functions to manage ESP EEPROM classes.
+Simple utilities functions to manage ESP EEPROM class. It uses debounce concept to write into the EEPROM to prevent multple write cycles.
 
 
 ### Setup
@@ -62,7 +62,7 @@ void loop() {
 ### All Functions
 
 ```cpp
-// Initialise the output pin
+// Initialise the eeprom manager
 EspEepromManager eepromManager;
 
 // Setup
