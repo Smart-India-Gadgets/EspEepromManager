@@ -1,0 +1,28 @@
+{
+  "name": "EspEepromManager",
+  "version": "1.0.0",
+  "description": "A library for controlling EEPROM in ESP32 microcontrollers",
+  "keywords": "EEPROM, ESP32, memory, storage",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/Smart-India-Gadgets/EspEepromManager.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Alauddin Ansari",
+      "email": "alauddinx27@gmail.com"
+    }
+  ],
+  "examples": "examples/*",
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "export": {
+    "include": ["src", "examples", "LICENSE.txt"]
+  },
+  "dependencies": {
+    "jwrw/ESP_EEPROM": "^2.2.0"
+  }
+}
